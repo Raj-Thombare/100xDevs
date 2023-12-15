@@ -9,13 +9,16 @@ There is no automated test for this one, this is more for you to understand time
 */
 
 function calculateTime(n) {
-    const startTime = new Date().getTime();
-    let sum = 0;
-    for (let i = 1; i <= n; i++) {
-      sum += i;
-    }
-    const endTime = new Date().getTime();
-    const timeTaken = endTime - startTime;
-
-    return timeTaken;
+  let sum = 0;
+  for (let i = 1; i <= n; i++) {
+    sum += i;
+  }
+  return sum;
 }
+const startTime = new Date().getTime();
+
+calculateTime(10000000);
+
+const endTime = new Date().getTime();
+const timeTaken = endTime - startTime;
+console.log(timeTaken);

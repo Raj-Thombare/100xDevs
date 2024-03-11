@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "id": 1,
+    "title": "todo1",
+    "description": "This is 1st todo",
+    "completed": true
+  },
+  {
+    "id": 410008,
+    "title": "todo2",
+    "description": "This is 2nd todo",
+    "completed": true
+  }
+]
